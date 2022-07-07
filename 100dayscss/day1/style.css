@@ -1,0 +1,92 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: #46f54e;
+}
+
+.container {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.days {
+  font-family: "Courier New", "Courier", sans-serif;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 30px;
+}
+
+.msg {
+  font-family: "Courier New", "Courier", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  height: 50px;
+  width: 18px;
+  position: absolute;
+  left: 75px;
+  top: 96px;
+  border-radius: 5px;
+  background-color: #fff;
+
+  transform: rotate(50deg);
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.onee {
+  height: 100px;
+  width: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zero1,
+.zero2 {
+  border: 20px solid #fff;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  position: relative;
+  right: 5px;
+  z-index: 8;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+.zero2 {
+  position: relative;
+  right: 16px;
+  z-index: 6;
+}
